@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:mailer/mailer.dart';
 import 'package:mailer/smtp_server/gmail.dart';
 
-sendEmail(BuildContext context) async {
+sendEmail(BuildContext context //For showing snackbar
+    ) async {
   String username = 'abc@gmail.com'; //Your Email
   String password =
       '****************'; // 16 Digits App Password Generated From Google Account
